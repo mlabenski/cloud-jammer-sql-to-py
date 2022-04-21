@@ -4,7 +4,7 @@ from collections import defaultdict
 from os import getenv
 app = Flask(__name__)
 
-db=pymssql.connect(server='', user='', password='Mla14782', database='')
+db=pymssql.connect(server='', user='', password='', database='')
 @app.route("/")
 def hello():
     return "Hello, you're connected to the Cloud Jammer Database!"
